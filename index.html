@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Mistério da Cidade Sombria</title>
+</head>
+<body>
+    <div class="postes">
+        <div class="poste"></div>
+        <div class="poste"></div>
+        <div class="poste"></div>
+        <div class="poste"></div>
+    </div>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Como detetive da cidade de Luminara, você encontra uma carta misteriosa em uma biblioteca antiga. A carta menciona uma cidade escondida e cheia de segredos, e seu trabalho é investigar. Você decide por onde começar sua busca.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o Mercado Antigo</button>
+            <button class="btn-proximo" data-proximo="2">Visitar a Mansão Abandonada</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você entra no Mercado Antigo, onde as luzes de neon laranja piscam entre as sombras das bancas de antiguidades. Você nota duas áreas de interesse.</p>
+            <button class="btn-proximo" data-proximo="3">Investigar o Barracão de Roupas</button>
+            <button class="btn-proximo" data-proximo="4">Explorar a Feira de Antiguidades</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Na Mansão Abandonada, a escuridão é quebrada apenas pelos neons laranjas que iluminam os móveis empoeirados. Há duas salas para explorar.</p>
+            <button class="btn-proximo" data-proximo="5">Examinar a Biblioteca Secreta</button>
+            <button class="btn-proximo" data-proximo="6">Checar o Escritório do Proprietário</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>No Barracão de Roupas, você encontra uma pista oculta em um bolso de um casaco antigo. A pista sugere que você deve procurar um velho farol na cidade.</p>
+            <button class="btn-proximo" data-proximo="7">Dirigir-se ao Farol</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Na Feira de Antiguidades, você encontra um artefato que leva a uma nova pista. Este artefato tem uma inscrição que menciona uma caverna nas colinas.</p>
+            <button class="btn-proximo" data-proximo="8">Procurar a Caverna nas Colinas</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <p>Na Biblioteca Secreta, você encontra um livro antigo com informações sobre um mapa escondido da cidade. O mapa aponta para uma caverna nas colinas.</p>
+            <button class="btn-proximo" data-proximo="8">Procurar a Caverna nas Colinas</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>O Escritório do Proprietário tem documentos antigos que falam sobre um templo oculto. A pista sugere que você deve procurar um templo escondido nas colinas.</p>
+            <button class="btn-proximo" data-proximo="9">Investigar o Templo Oculto</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>O Farol é antigo e abandonado, mas você encontra uma entrada secreta que leva a um túnel. O túnel parece conduzir a um templo misterioso.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o Templo Oculto</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <p>Você encontra a caverna nas colinas e descobre uma entrada oculta que leva a um templo antigo cheio de símbolos e inscrições.</p>
+            <button class="btn-proximo" data-proximo="9">Explorar o Templo Oculto</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>No Templo Oculto, você desvenda o mistério da cidade escondida e encontra tesouros e segredos do passado. A cidade antiga revela seu ultimate segredo.</p>
+            <img src="img/cenario-passo9-templo.png" alt="Templo Oculto">
+            <p>Você decide estudar e preservar o que encontrou.</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
